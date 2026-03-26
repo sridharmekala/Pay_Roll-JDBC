@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Employee Payroll Dashboard | MSD</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f7fb;
+}
+
+.header{
+position:relative;
+background:#2c3e50;
+color:white;
+padding:22px 38px;
+text-align:center;
+}
+
+.app-name{
+font-size:20px;
+font-weight:bold;
+}
+
+.greeting{
+position:absolute;
+left:30px;
+top:25px;
+font-size:16px;
+font-weight:700;
+}
+
+.logout{
+position:absolute;
+right:30px;
+top:15px;
+background:#e74c3c;
+padding:8px 18px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.logout:hover{
+background:#c0392b;
+}
+
+.main{
+text-align:center;
+margin-top:120px;
+}
+
+.main h2{
+color:#2c3e50;
+margin-bottom:10px;
+}
+
+.description{
+color:#555;
+margin-bottom:35px;
+font-size:15px;
+}
+
+.dashboard{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px 40px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+text-decoration:none;
+color:#2c3e50;
+font-weight:bold;
+font-size:16px;
+transition:0.3s;
+width:200px;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 6px 20px rgba(0,0,0,0.25);
+}
+
+.footer{
+position:fixed;
+bottom:0;
+width:100%;
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:18px;
+font-size:14px;
+}
+
+.sub{
+font-size:12px;
+color:#ddd;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<span class="greeting">Welcome! Admin</span>
+
+<span class="app-name">💼 Employee Payroll System</span>
+
+<a href="index.html" class="logout">Logout</a>
+
+</div>
+
+<div class="main">
+
+<h2>Employee Management Dashboard</h2>
+
+<div class="description">
+Use the options below to add employees, view employee data, and generate salary reports.
+</div>
+
+<div class="dashboard">
+
+<a href="addEmployee.html" class="card">
+➕ Add Employee
+</a>
+
+<a href="viewEmployees" class="card">
+📋 View Employees
+</a>
+
+<a href="report.html" class="card">
+📊 Salary Report
+</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Employee Payroll System | All Rights Reserved <br>
+<span class="sub">
+Developed for Employee Management & Payroll Operations
+</span>
+</div>
+
+</body>
+</html>

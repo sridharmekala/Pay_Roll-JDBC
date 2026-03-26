@@ -1,0 +1,9 @@
+127.0.0.1 - - [25/Mar/2026:18:00:14 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:14 +0530] "GET /PAY_ROLL/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:15 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:19 +0530] "POST /PAY_ROLL/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:19 +0530] "GET /PAY_ROLL/dashboard.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:22 +0530] "GET /PAY_ROLL/addEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:25 +0530] "GET /PAY_ROLL/viewEmployees HTTP/1.1" 200 2363
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:31 +0530] "GET /PAY_ROLL/report.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Mar/2026:18:00:33 +0530] "GET /PAY_ROLL/salaryReport? HTTP/1.1" 200 1683
